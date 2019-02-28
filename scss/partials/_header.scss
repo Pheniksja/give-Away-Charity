@@ -12,20 +12,21 @@
     margin: 0 auto;
     border: 1px solid black;
     display: flex;
-    justify-content: space-between;
-    box-sizing: border-box;
-}
+    justify-content: flex-end;
+} 
 
 .header-nav-list {
-    list-style:none;
     display:flex;
     margin: 15px;
 }
 
 .header-nav-list li {
+    display:flex;
+    padding: 0 15px;
+}
 
+.header-nav-list li a {
+    text-decoration: none;
     justify-content:flex-end;
-    padding: 15px;
-    display: inline-block;
-    // justify-content: left;
+    color: black;
 }
