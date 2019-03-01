@@ -1,19 +1,54 @@
-.header-nav-list {
-    font-size: 20px;
+//header
+
+.header-menu {
+    width: 100%;
+    height: 75.6rem;
+    background: url('../images/header_start_img.jpg') no-repeat;
+    background-size: contain;
+    border: 1px solid red;
 }
 
-.header-menu{
-    // width:50%;
-    padding: 15px 0;
-}
-
-.container {
-    width: 1200px;
-    margin: 0 auto;
-    border: 1px solid black;
+.header-menu .container {
+    height: 100%;
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
 } 
+
+//login and create account
+
+.account {
+margin-top: 2rem;
+font-size: 1.1rem;
+}
+
+.account .login,
+.account .register {
+    padding: 0.5rem;
+    margin-right: 0.4rem;
+}
+
+.account .login {
+    // margin-right: 20px;
+}
+
+
+.account .register {
+    padding: 0.5rem;
+    border: 1px solid $colorAccount;
+}
+
+.header-menu a{
+    color: $colorText;
+}
+
+.header-nav-list {
+    // font-size: 20px;
+}
+
+
+//navigation
+
 
 .header-nav-list {
     display:flex;
