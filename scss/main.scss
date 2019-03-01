@@ -1,9 +1,12 @@
 // essential
-@import 'essentials/normalize';
-
-
-
+@import 'modules/normalize';
+@import 'modules/layout';
 
 
 // Patrials
 @import 'partials/header';
+
+
+//Colors
+$colorText: #737373;
+$colorBody: #EFEFEF;
