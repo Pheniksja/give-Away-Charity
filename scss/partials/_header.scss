@@ -4,8 +4,8 @@
     width: 100%;
     height: 75.6rem;
     background: url('../images/header_start_img.jpg') no-repeat;
-    background-size: contain;
-    border: 1px solid red;
+    background-size: 90%;
+    border: 2px solid pink;
 }
 
 .header-menu .container {
@@ -19,36 +19,31 @@
 
 .account {
 margin-top: 2rem;
-font-size: 1.1rem;
+margin-right: 7rem;
+font-size: 0.7rem;
 }
 
 .account .login,
 .account .register {
     padding: 0.5rem;
-    margin-right: 0.4rem;
+    // margin-right: 0.4rem;
 }
-
-.account .login {
-    // margin-right: 20px;
-}
-
 
 .account .register {
     padding: 0.5rem;
-    // border: 1px solid $colorAccount;
+    border: 1px solid $colorAccount;
 }
 
 .header-menu a{
-    // color: $colorText;
+    color: $colorText;
 }
-
-.header-nav-list {
-    // font-size: 20px;
-}
-
 
 //navigation
-
+.header-nav {
+    margin-top: 1.5rem;
+    margin-right: 5.5rem;
+    font-size: 1rem;
+}
 
 .header-nav-list {
     display:flex;
@@ -63,5 +58,43 @@ font-size: 1.1rem;
 .header-nav-list li a {
     text-decoration: none;
     justify-content:flex-end;
-    color: black;
+    color: $colorText;
+}
+
+.header-nav-list .active {
+    border: 1px solid $colorBorder;
+    // padding-bottom: 1rem;
+    padding: 0.6rem 1.3rem;
+    margin-top:-0.6rem;
+}
+
+//mainBox and buttons
+
+.header-menu  .mainBox {
+    width: 55rem;
+    border: 1px solid red;
+    text-align: center;
+    font-size: 1rem;
+}
+.mainBoxInfo {
+    margin-top:15rem;
+    padding-left: 18rem;
+    // margin-right:20px;
+    // padding: 0 50px;
+}
+
+.mainBox p {
+    font-size: 2rem;
+}
+
+.headerButtons{
+    margin-top: 2.85rem;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.headerButtons button{
+    width: 5rem;
+    height: 9rem;
 }
