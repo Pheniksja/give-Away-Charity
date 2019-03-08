@@ -1,0 +1,40 @@
+.statistics {
+    width:100%;
+    height:25rem;
+    background-color: $colorHighlight;
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/blu-stripes/')
+}
+
+.statistics .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+} 
+
+.statisctics_info {
+    text-align: center;
+    padding: 0 5rem;
+    display:flex;
+    flex-direction:column;
+}
+
+.statistics_number {
+    font-size:4rem;
+    font-weight: 300;
+
+}
+
+.statistics_detail {
+    font-size:1.2rem;
+    text-transform: uppercase;
+    padding-top: 1rem;
+}
+
+
+.statistics_descript{
+    font-size: 0.8rem;
+    font-weight: 300;
+    line-height: 1.3rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}

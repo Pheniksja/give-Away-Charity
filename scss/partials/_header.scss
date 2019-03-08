@@ -5,7 +5,7 @@
 
 .header-menu {
     width: 100%;
-    height: 75.6rem;
+    height: 48.6rem;
     background: url('../images/header_start_img.jpg') no-repeat;
     // background-size: contain;
     background-size: 80%; 
@@ -16,7 +16,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-
 } 
 
 //login and create account
@@ -35,7 +34,7 @@ font-size: 0.7rem;
 
 .account .register {
     padding: 0.5rem;
-    border: 1px solid $colorAccount;
+    border: 1px solid $colorHighlight;
 }
 
 .header-menu a{
@@ -74,11 +73,11 @@ font-size: 0.7rem;
 
 //mainBox 
 
-.header-menu  .mainBox {
-    width: 40rem;
+.header-menu  .main_box {
+    width: 43rem;
     text-align: center;
 }
-.mainBoxInfo {
+.main_box_info {
     margin-top:12rem;
     padding-left: 3rem;
     font-size: 8rem;
@@ -86,19 +85,20 @@ font-size: 0.7rem;
 
 }
 
-.mainBox p {
+.main_box p {
     font-size: 2rem;
     font-weight: 200;
 }
 
 //buttons
-.headerButtons{
+.header_buttons{
     margin-top: 2.85rem;
     display: flex;
     justify-content: space-around;
 }
 
-.headerButtons button{
+.header_buttons button{
     width: 14rem;
     height: 6rem;
+    padding: 0 2rem 0.5rem 2rem;
 }

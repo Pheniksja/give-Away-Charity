@@ -1,9 +1,9 @@
 //Colors
-$colorText: #737373;
+$colorText: #3C3C3C;
 $colorBody: #EFEFEF;
-$colorAccount: #FBD649;
+$colorHighlight: #FBD649;
 $colorBorder: #6A6A6A;
-
+$colorLigthBorder: rgba(106,106,106,0.7);
 
 // essential
 @import 'modules/normalize';
@@ -12,5 +12,5 @@ $colorBorder: #6A6A6A;
 
 // Patrials
 @import 'partials/header';
-
+@import 'partials/statistics';
 
