@@ -1,6 +1,6 @@
 .four_steps {
 width: 100%;
-height: 20rem;
+height: 35rem;
 border: 1px solid red;
 }
 
@@ -25,24 +25,37 @@ border: 1px solid red;
     justify-content: center;
     border: 1px solid blue;
     background-color: #EAEAEA;
+    // width: 70rem;
+    // height: 15rem;
 }
 
 .steps_list_item {
-    // padding: 2rem;
+    padding: 2rem;
     font-size: 1rem;
-    
-    // width: 10rem;
-    // margin: 0 2rem;
+    width: 15rem;
+    margin: 0 rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-
+    background-color: #EAEAEA;
 }
 .steps_title_list {
-    font-size: 10px;
+    font-size: 1.2rem;
+    padding: 0.8rem;
+    width: 12rem;
+    display:flex;
+    align-items: flex-end;
+
+
 }
-.steps_line {
-    width: 20px;
-    border:1ps solid black;
+
+.steps_title_descript {
+    font-size: 1rem;
+    padding:0.5rem;
+}
+.steps_list_item .steps_line {
+    width: 5rem;
+    border-top:1px solid $colorText;
+    // padding: 1rem;
 }
